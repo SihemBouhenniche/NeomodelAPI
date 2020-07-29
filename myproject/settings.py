@@ -82,7 +82,7 @@ DATABASES = {
     }
 }
 
-NEOMODEL_NEO4J_BOLT_URL = os.environ.get('NEO4J_BOLT_URL','bolt://admin:b.vcOltQTF45xG.TifdYUAIhpQ89UFJ@hobby-ddcpaacjcnamgbkeaneflhfl.dbs.graphenedb.com:24787')
+NEOMODEL_NEO4J_BOLT_URL = os.environ.get('NEO4J_BOLT_URL','bolt://username:password@localhost:7687')
 NEOMODEL_SIGNALS = True
 NEOMODEL_FORCE_TIMEZONE = False
 NEOMODEL_ENCRYPTED_CONNECTION = True
